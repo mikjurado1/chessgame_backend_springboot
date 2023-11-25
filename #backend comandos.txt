@@ -1,0 +1,9 @@
+#backend 
+
+
+#crear docker
+crear carpeta target con el archivo .jar
+mvn clean package (elimina y crea nuevamente la carpeta target)
+
+docker build -t backend-chess-image .
+
